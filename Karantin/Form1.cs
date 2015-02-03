@@ -201,6 +201,7 @@ MessageBoxButtons.OK, MessageBoxIcon.Error);
                     "Download failed",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
+                timer.Enabled = false;
             }
 
             // Enable the download button and reset the progress bar.
